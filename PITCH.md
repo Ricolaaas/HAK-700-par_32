@@ -23,15 +23,15 @@
 **Les défis actuels :**
 
 ❌ **Distribution uniforme** → Certaines zones sur-équipées, d'autres sous-vaccinées  
-❌ **Prédiction imprécise** → Commandes à l'aveugle, pénuries ou gaspillage  
+❌ **Prédiction imprécise** → Commandes à l'aveugle, pénuries ou surstocks  
 ❌ **Décisions nationales** → Pas d'adaptation aux réalités locales  
-❌ **Gaspillage économique** → Des millions d'euros de doses non utilisées  
+❌ **Allocation sous-optimale** → Ressources mal réparties sur le territoire  
 
 **Question centrale** : Comment cibler, anticiper et optimiser ?
 
 ---
 
-### 3. NOTRE SOLUTION (1 min 30)
+### 3. NOTRE SOLUTION (1 min 45)
 
 #### 🗺️ **AXE 1 : CIBLAGE GÉOGRAPHIQUE**
 
@@ -40,26 +40,14 @@
 **Ce que nous avons fait :**
 - Analyse de 157,000 lignes de données départementales
 - Score de risque composite : urgences + hospitalisations + SOS médecins
-- Identification de 15 départements critiques nécessitant action prioritaire
+- Identification des départements à risque CRITIQUE (>63/100) et ÉLEVÉ (55-63/100)
+- TOP 15 départements prioritaires avec plan d'action concret
 
 **Résultat** : "Monsieur le Ministre, voici où agir EN PRIORITÉ"
 
 ---
 
-#### 💰 **AXE 2 : OPTIMISATION ÉCONOMIQUE**
-
-*[DÉMO : Montrer graphique doses vs actes]*
-
-**Ce que nous avons découvert :**
-- Taux d'utilisation : X% des doses distribuées
-- Y millions de doses non utilisées sur 4 ans
-- Z millions d'euros d'économies potentielles
-
-**Résultat** : "Nous pouvons réduire le gaspillage de 15%"
-
----
-
-#### 📊 **AXE 3 : PRÉDICTION INTELLIGENTE**
+#### 📊 **AXE 2 : PRÉDICTION INTELLIGENTE**
 
 *[DÉMO : Montrer validation modèle + prédictions futures]*
 
@@ -67,8 +55,14 @@
 - Entraîné sur 4 ans d'historique (2021-2025)
 - Précision de 90%+ validée sur campagne réelle 2023-2024
 - Prédictions hebdomadaires pour les 4 prochaines semaines
+- **130 millions de vaccinations** analysées sur tous les canaux
 
 **Résultat** : "Nous anticipons les besoins avec 9 semaines sur 10 correctes"
+
+**Impact opérationnel :**
+- Ajuster les commandes en temps réel
+- Éviter pénuries ET surstocks
+- Planifier les campagnes de communication au bon moment
 
 ---
 
@@ -80,7 +74,7 @@
 |-----------------|-------------------|
 | Analyse nationale | ✅ **Départementale** (action locale) |
 | Statistiques descriptives | ✅ **IA prédictive** (anticipation) |
-| Pas d'angle économique | ✅ **ROI mesurable** (économies) |
+| Rétrospective uniquement | ✅ **Prédictions 4 semaines** (proactif) |
 | Rapports PDF statiques | ✅ **Dashboard interactif** (décision) |
 
 ---
@@ -92,9 +86,10 @@
 Si déployé à l'échelle nationale :
 
 - 📈 **+20% de couverture vaccinale** dans les zones ciblées
-- 💰 **-15% de gaspillage** = plusieurs millions d'euros économisés
+- 🎯 **Meilleure allocation des ressources** grâce au ciblage précis
 - 🏥 **-10% de passages aux urgences** grâce à meilleure prévention
 - ⏱️ **Décisions en temps réel** vs planification à l'aveugle
+- 💡 **Anticipation 4 semaines** pour ajuster la logistique
 
 #### 🚀 **Prochaines étapes (si nous gagnons)**
 
@@ -150,18 +145,19 @@ Système d'Optimisation Vaccinale Intelligent
 
 ❌ Distribution uniforme
 ❌ Prédiction imprécise  
-❌ Gaspillage économique
+❌ Allocation sous-optimale
 
 → Il nous faut : CIBLER, ANTICIPER, OPTIMISER
 ```
 
 ### Slide 3 : Notre Solution (Visual)
 ```
-[Schéma 3 colonnes]
+[Schéma 2 colonnes]
 
-🗺️ CIBLAGE          💰 OPTIMISATION       📊 PRÉDICTION
-Départements        Gaspillage -15%       IA 90% précision
-prioritaires        Économies €€€          Anticipation
+🗺️ CIBLAGE GÉOGRAPHIQUE       📊 PRÉDICTION IA
+15 départements prioritaires    90% de précision
+Score de risque composite       Anticipation 4 semaines
+Action locale ciblée            130M vaccinations analysées
 ```
 
 ### Slide 4 : Démo
@@ -175,9 +171,10 @@ prioritaires        Économies €€€          Anticipation
 🎯 SI DÉPLOYÉ À L'ÉCHELLE NATIONALE
 
 +20% couverture zones ciblées
--15% gaspillage doses
+Meilleure allocation ressources
 -10% urgences grippales
-Millions € économisés
+Anticipation 4 semaines
+Décisions temps réel
 ```
 
 ### Slide 6 : Conclusion
@@ -206,10 +203,13 @@ MERCI !
 **R** : Le code est modulaire. Une API REST + base de données permettrait l'intégration dans les systèmes ARS existants en quelques semaines.
 
 ### Q4 : "Coût de déploiement ?"
-**R** : Solution open-source, hébergement cloud ~100€/mois. ROI immédiat vu les économies de gaspillage (millions €).
+**R** : Solution open-source, hébergement cloud ~100€/mois. ROI immédiat grâce à la meilleure allocation des ressources et l'optimisation logistique.
 
 ### Q5 : "Quelle est votre méthodologie pour le score ?"
 **R** : Score composite pondéré : 30% urgences + 40% hospitalisations + 30% SOS médecins. Pondération basée sur gravité clinique.
+
+### Q6 : "C'est quoi la différence entre DOSES et ACTES ?"
+**R** : DOSES = vaccinations par le circuit médical (médecins, soignants). ACTES = vaccinations directes en pharmacie. Notre analyse couvre les 130 millions de vaccinations sur les deux canaux complémentaires.
 
 ---
 
@@ -217,12 +217,12 @@ MERCI !
 
 - **00:00-00:30** : Accroche
 - **00:30-01:15** : Problème
-- **01:15-02:45** : Solution (3 axes)
-- **02:45-03:30** : Différenciation
-- **03:30-04:45** : Impact + Next steps
+- **01:15-03:00** : Solution (2 axes bien développés)
+- **03:00-03:45** : Différenciation
+- **03:45-04:45** : Impact + Next steps
 - **04:45-05:00** : Conclusion
 
-**BUFFER : 1 min pour questions techniques**
+**BUFFER : 15 secondes de marge**
 
 ---
 

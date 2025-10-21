@@ -82,17 +82,17 @@ Carte des départements avec scores en couleurs (vert → rouge)
 
 ### 4. Analyse économique
 ```
-Doses distribuées : 15,234,567
-Actes réalisés    : 13,456,789
-Taux d'utilisation: 88.3%
-Doses non utilisées: 1,777,778
+Doses distribuées : 88,572,396
+Actes réalisés    : 41,370,518
+Taux d'utilisation: 46.7%  ← ATTENTION : Gaspillage important !
+Doses non utilisées: 47,201,878 = 472M€
 ```
 
 ### 5. Modèle prédictif
 ```
-MAE  : 45,234 actes/semaine
-RMSE : 67,890
-MAPE : 8.5%
+MAE  : 125,765 actes/semaine
+RMSE : 203,368
+Précision : 72.6% (sur période active)
 ```
 
 Graphique validation : ligne bleue (réalité) vs ligne rouge (prédiction)
@@ -102,18 +102,18 @@ Graphique validation : ligne bleue (réalité) vs ligne rouge (prédiction)
 ┌─────────────┬───────────────┬────────────┐
 │ Semaine du  │ Actes prédits │ Confiance  │
 ├─────────────┼───────────────┼────────────┤
-│ 27/10/2025  │ 125,000       │ 🔵 Moyenne │
-│ 03/11/2025  │ 267,000       │ 🔵 Moyenne │
-│ 10/11/2025  │ 345,000       │ 🟡 Faible  │
-│ 17/11/2025  │ 398,000       │ 🟡 Faible  │
+│ 13/10/2025  │ 33,228        │ 🔵 Moyenne │
+│ 20/10/2025  │ 969,085       │ 🔵 Moyenne │
+│ 27/10/2025  │ 1,211,267     │ 🟡 Faible  │
+│ 03/11/2025  │ 1,250,909     │ 🟡 Faible  │
 └─────────────┴───────────────┴────────────┘
 ```
 
 ### 7. Dashboard final
 Tableau de bord coloré avec 3 KPIs :
-- Départements critiques
-- Taux d'utilisation
-- Précision modèle
+- **Départements critiques** : 0 (mais 13 en zone ÉLEVÉE)
+- **Taux d'utilisation** : 46.7% (gaspillage important)
+- **Précision modèle** : 72.6%
 
 ### 8. Recommandations
 Plan d'action structuré par priorité (P1 à P4)

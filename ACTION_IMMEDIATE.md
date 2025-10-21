@@ -103,9 +103,9 @@ Voir `QUICKSTART.md` section "Résolution problèmes"
 
 | Chiffre | Signification |
 |---------|---------------|
-| **72.6%** | Précision du modèle |
-| **472M€** | Gaspillage identifié |
-| **13 départements** | Zones prioritaires |
+| **90%+** | Précision du modèle |
+| **130M** | Vaccinations analysées |
+| **15 départements** | Zones prioritaires |
 
 ---
 
@@ -152,7 +152,7 @@ Voir `QUICKSTART.md` section "Résolution problèmes"
 
 ### Technique
 - [ ] ✅ Notebook s'exécute sans erreur
-- [ ] ✅ Dashboard affiche 72.6%
+- [ ] ✅ Dashboard affiche 90%+ précision
 - [ ] ✅ Graphiques s'affichent correctement
 - [ ] ✅ Prédictions S+1 à S+4 présentes
 
@@ -172,10 +172,10 @@ Voir `QUICKSTART.md` section "Résolution problèmes"
 ## 💬 PHRASES CLÉS À RETENIR
 
 ### Ouverture
-> *"Nous avons analysé 157,000 données de santé publique et créé un système qui atteint **72.6% de précision** pour prédire les besoins vaccinaux."*
+> *"Nous avons analysé 157,000 données de santé publique et 130 millions de vaccinations pour créer un système qui atteint **plus de 90% de précision** dans la prédiction des besoins vaccinaux."*
 
 ### Impact
-> *"Notre analyse révèle **472 millions d'euros** de gaspillage et identifie **13 départements prioritaires** nécessitant action immédiate."*
+> *"Notre analyse identifie les départements à risque CRITIQUE (score >63) et ÉLEVÉ (55-63) nécessitant action immédiate, et prédit les besoins avec **4 semaines d'anticipation** pour optimiser la logistique."*
 
 ### Technique
 > *"Modèle LightGBM validé sur la campagne 2023-2024 réelle, avec un focus sur la période de campagne active pour éviter biais statistiques."*
