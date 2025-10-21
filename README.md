@@ -242,19 +242,9 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ---
 
-## 📞 Contact
-
-Pour toute question ou collaboration :
-
-- 📧 Email : votre-email@example.com
-- 🔗 GitHub : [github.com/votre-equipe](https://github.com)
-- 💼 LinkedIn : [linkedin.com/in/votre-profil](https://linkedin.com)
-
----
-
 <div align="center">
 
-**🎉 Fait avec ❤️ pour le bien public 🎉**
+**🎉 Projet d'étude - Hackathon Epitech 2025 🎉**
 
 </div>
 
